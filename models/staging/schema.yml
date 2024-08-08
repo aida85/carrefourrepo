@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: stg_local_sales
+    description: "Modèle combinant toutes les données de vente de boissons par l'union des trois tables."
+    columns:
+      - name: barcode_ean13
+        description: "Code-barres unique après le casting."
+        tests:
+          - not_null
+          - unique

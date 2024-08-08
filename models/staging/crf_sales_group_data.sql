@@ -1,0 +1,1 @@
+{{ local_sales_macro('dbt_intro.crf_sales_group_data') }}
